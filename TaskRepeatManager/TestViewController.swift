@@ -24,16 +24,16 @@ class TestViewController: UIViewController {
         }
 
 //
-//        BRTaskRepeatManager.doRepeatAsyncAction(targetVC: self, repeatCount: 10)  { index in
-//            print("delayBlock:\(index)")
-//            // 可以做定制化，比如 间隔时间，越来越越大
-//            return 1
-//        } doNextBlock: { (index, errorCallBack) in
-//            print(index)
-//            TestViewController.doAfterBlock(block: {
-//                errorCallBack?()
-//            })
-//        }
+        BRTaskRepeatManager.doRepeatAsyncAction(targetVC: self, repeatCount: 10)  { index in
+            print("delayBlock:\(index)")
+            // 可以做定制化，比如 间隔时间，越来越越大
+            return 1
+        } doNextBlock: { (index, errorCallBack) in
+            print(index)
+            TestViewController.doAfterBlock(block: {
+                errorCallBack?()
+            })
+        }
 
         // Do any additional setup after loading the view.
     }

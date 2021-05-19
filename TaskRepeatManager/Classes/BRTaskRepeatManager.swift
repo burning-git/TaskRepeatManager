@@ -7,7 +7,7 @@
 
 import UIKit
 
-public class BRTaskRepeatManager {
+public class BRTaskRepeatManager: NSObject {
     /// 执行同步重复任务
     /// - Parameters:
     ///   - repeatCount: <#repeatCount description#>
@@ -76,6 +76,6 @@ public class BRTaskRepeatManager {
     }
     
     deinit {
-        print("释放了:\(self)")
+        print("释放了:\(self.classForCoder)")
     }
 }
