@@ -2,7 +2,7 @@
 ## 重复任务执行
 
 # Pod 
-pod 'BRTaskRepeat', ~>'0.1.0'
+pod 'BRTaskRepeat', "~>0.1.0"
 
 
 # 使用:
