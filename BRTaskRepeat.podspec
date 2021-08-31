@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BRTaskRepeat'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = '重复任务执行'
 
 # This description is used to generate tags and improve search results.

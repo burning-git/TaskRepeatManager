@@ -21,7 +21,7 @@ public class BRTaskRepeatManager: NSObject {
         }
     }
     
-    public class func doRepeatSyncAction(targetVC: UIViewController?,repeatCount: Int,doNextBlock:  ((_ index: Int)->())?) {
+    public class func doRepeatSyncAction(targetVC: Any?,repeatCount: Int,doNextBlock:  ((_ index: Int)->())?) {
         if repeatCount <= 0 {
         }else{
             if targetVC == nil {
